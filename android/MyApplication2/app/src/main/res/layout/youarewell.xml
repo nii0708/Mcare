@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A91079"
+    tools:context=".SelfHelp">
+
+
+    <!--,#F24C4C" />-->
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="324dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/rounded_editext_purple"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:linksClickable="false"
+        android:shadowColor="#F806CC"
+        android:text="YOU ARE DOING WELL\nTAKE GOOD CARE OF YOURSELF"
+        android:textAlignment="center"
+        android:textColor="#F806CC"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/clinic"
+        android:layout_width="319dp"
+        android:layout_height="335dp"
+        android:layout_marginBottom="80dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_editext_violet"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="start"
+        android:linksClickable="false"
+        android:text="\n\tHere are the ways to take care of yourself according\n\tto psychologytoday:\n\n
+    &#8226;Make sleep part of your routine.\n
+    &#8226;Take care of yourself by taking care of your gut.\n
+    &#8226;Exercise daily as part of your routine.\n
+    &#8226;Eat right.\n
+    &#8226;Say no to others, and say yes to your self-care.\n
+    &#8226;Take a trip.\n
+    &#8226;Take a break by getting outside.\n
+    &#8226;Let a pet help you with your self-care.\n
+    &#8226;Take care of yourself by getting organized.\n
+    &#8226;Cook at home to care for yourself.\n
+    &#8226;Read a book on self-care.\n
+    &#8226;Schedule your self-care time
+    "
+        android:textAlignment="textStart"
+        android:textColor="#F806CC"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <Button
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="96dp"
+        android:text="link to psychology today"
+        android:textSize="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.693"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
