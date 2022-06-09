@@ -17,7 +17,7 @@ object Config {
         .readTimeout(20, TimeUnit.MINUTES)
         .build()
     val retrofit = Retrofit.Builder()
-        .baseUrl("https://mcare4.et.r.appspot.com/")
+        .baseUrl("https://mcare5.et.r.appspot.com/")
         .addConverterFactory(GsonConverterFactory.create())
         .client(client)
         .build()
